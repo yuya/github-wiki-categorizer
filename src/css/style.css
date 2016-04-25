@@ -1,9 +1,9 @@
-.categories {
+.__github-wiki-categorizer__ {
   position: relative;
   margin-top: 40px;
   padding-top: 41px;
 }
-.categories:before {
+.__github-wiki-categorizer__:before {
   display: block;
   position: absolute;
   top: 0;
@@ -14,25 +14,25 @@
   content: "";
 }
 
-.categories dl {
+.__github-wiki-categorizer__ dl {
   margin: 0 0 1em;
 }
-.categories dl:last-child {
+.__github-wiki-categorizer__ dl:last-child {
   margin: 0;
 }
-.categories dt {
+.__github-wiki-categorizer__ dt {
   font-weight: bold;
 }
 
-.categories li {
+.__github-wiki-categorizer__ li {
   display: inline-block;
   margin-right: 0.5em;
 }
-.categories li:after {
+.__github-wiki-categorizer__ li:after {
   display: inline;
   margin-left: 0.5em;
   content: "|";
 }
-.categories li:last-child:after {
+.__github-wiki-categorizer__ li:last-child:after {
   display: none;
 }

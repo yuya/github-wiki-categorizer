@@ -71,7 +71,7 @@ function appendCategories() {
     fragment.appendChild(dl);
   });
 
-  element.className = "categories";
+  element.className = "__github-wiki-categorizer__";
   element.appendChild(fragment);
 
   target.appendChild(element);
