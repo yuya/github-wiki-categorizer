@@ -1,0 +1,38 @@
+.categories {
+  position: relative;
+  margin-top: 40px;
+  padding-top: 41px;
+}
+.categories:before {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  border-top: 1px solid #eee;
+  content: "";
+}
+
+.categories dl {
+  margin: 0 0 1em;
+}
+.categories dl:last-child {
+  margin: 0;
+}
+.categories dt {
+  font-weight: bold;
+}
+
+.categories li {
+  display: inline-block;
+  margin-right: 0.5em;
+}
+.categories li:after {
+  display: inline;
+  margin-left: 0.5em;
+  content: "|";
+}
+.categories li:last-child:after {
+  display: none;
+}
